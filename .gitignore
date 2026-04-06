@@ -1,0 +1,54 @@
+# 依赖目录
+node_modules/
+client/node_modules/
+
+# 构建输出
+dist/
+client/dist/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量（包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# 知识库数据（用户的实际文档，不应上传）
+knowledge-base/raw/*
+knowledge-base/wiki/*
+
+# 保留目录结构（允许空目录被 git 跟踪）
+!knowledge-base/raw/.gitkeep
+!knowledge-base/wiki/.gitkeep
+!knowledge-base/wiki/articles/.gitkeep
+!knowledge-base/wiki/concepts/.gitkeep
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
